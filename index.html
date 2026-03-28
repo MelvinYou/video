@@ -4,28 +4,50 @@
   <meta charset="UTF-8">
   <title>Embedded Video</title>
 
-  <!-- LinkedIn / social preview (SAFE addition) -->
-  <meta property="og:title" content="Simploud Customer Testimonial" />
-  <meta property="og:description" content="ESMS Digital Quality Journey" />
+  <!-- LinkedIn / social preview -->
+  <meta property="og:title" content="ESMS Global Digital Quality Journey" />
+  <meta property="og:description" content="Simploud Customer Testimonial" />
   <meta property="og:image" content="https://melvinyou.github.io/video/ESMS%20Thumbnail.png" />
   <meta property="og:type" content="video.other" />
   <meta property="og:url" content="https://melvinyou.github.io/video/" />
 
-  <!-- Mobile friendly (optional, no impact) -->
+  <!-- Mobile friendly -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 16px;
+    }
+    video {
+      width: 100%;
+      border-radius: 12px;
+    }
+  </style>
 </head>
 
 <body>
-<h2 style="text-align:center;">
-  ESMS Global Experience | Digital Quality Journey
-</h2>
-  
- <video controls 
-poster="https://melvinyou.github.io/video/ESMS%20Thumbnail.png"
-style="width:100%; height:auto; max-width:720px; border-radius:12px;">
-  <source src="Simploud Testimonials_ESMS.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+<div class="container">
+
+  <h2>ESMS Global Digital Quality Journey</h2>
+
+  <video controls 
+  poster="https://melvinyou.github.io/video/ESMS%20Thumbnail.png">
+    <source src="Simploud Testimonials_ESMS.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</div>
 
 </body>
 </html>
